@@ -1,4 +1,4 @@
-# Parcel cache fail
+# [Parcel](https://github.com/parcel-bundler/parcel) cache fail
 
 The problem: Parcel **does not** update the hash of the file if the file
 contents of the _resulting_ file were changed (it updates the hash if the
