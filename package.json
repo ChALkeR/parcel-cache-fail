@@ -1,0 +1,24 @@
+{
+  "name": "parcel-cache-fail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 1 Safari version",
+    "Firefox ESR",
+    "not dead"
+  ],
+  "scripts": {
+    "start": "",
+    "build": "parcel build source.0/index.html -d dist.0 && parcel build source.1/index.html -d dist.1",
+    "build-0": "parcel build source.0/index.html",
+    "build-1": "parcel build source.1/index.html"
+  },
+  "author": "",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "parcel-bundler": "^1.12.2"
+  }
+}
